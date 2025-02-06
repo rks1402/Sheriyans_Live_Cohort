@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form>
+        <label for="name">Enter your name: </label>
+        <br>
+        <input type="text" name="name" id="name" placeholder="Name" required>
+        <br><br>
+        <label for="email">Enter your email: </label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <br><br>
+        <label for="phone">Enter your phone number: </label>
+        <br>
+        <input type="tel" name="phone" id="phone" placeholder="Phone" pattern="[0-9]{10}" title="Please enter 10-digit phone number" required>
+        <br><br>
+        <label for="message">Enter your message: </label>
+        <br>
+        <textarea name="message" id="message" placeholder="Enter your message" rows="5"></textarea>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

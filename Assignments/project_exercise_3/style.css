@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy-Regular;
+}
+body {
+    margin-top: 10px;
+    background-color: rgb(228, 228, 228);
+}
+
+h1 {
+    font-family: Gilroy-Bold;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(91, 188, 227);
+    color: blue;
+    padding: 10px;
+    color: blue;
+    font-family: Gilroy-Bold;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+article {
+    margin: 20px 5px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h2 {
+    font-family: Gilroy-Bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+}
+
+article img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+h3 {
+    font-family: Gilroy-Bold;
+    margin-bottom: 20px;
+}
+
+ol {
+    margin: 20px 0;
+}
+
+li {
+    margin: 5px 30px;
+}
+
+#pizza li {
+    margin: 5px 100px;
+}
+
+#pasta li {
+    margin: 5px 100px;
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
