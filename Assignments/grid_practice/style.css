@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.images {
+    width: 100%;
+    background-color: wheat;
+    display: grid;
+    grid-template-areas: 
+        "a"
+        "b"
+        "c"
+        "d"
+        "e"
+        "f"
+        "g"
+        "h"
+        "i"
+        "j"
+    ;
+    gap: 10px;
+}
+
+img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.image-a {
+    grid-area: a;
+}
+
+.image-b {
+    grid-area: b;
+}
+
+.image-c {
+    grid-area: c;
+}
+
+.image-d {
+    grid-area: d;
+}
+
+.image-e {
+    grid-area: e;
+}
+
+.image-f {
+    grid-area: f;
+}
+
+.image-g {
+    grid-area: g;
+}
+
+.image-h {
+    grid-area: h;
+}
+
+.image-i {
+    grid-area: i;
+}
+
+.image-j {
+    grid-area: j;
+}
+
+@media (min-width: 1024px) {
+    .images {
+        grid-template-areas: 
+        "a a b c"
+        "a a d e"
+        "f g j j"
+        "h i j j"
+    ;
+    }
+}
