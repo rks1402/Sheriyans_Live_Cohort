@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+main {
+  padding: 1rem;
+}
+
+.view-1 {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+.view-1 .top {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view-1 .top h1 {
+  font-size: 3rem;
+}
+.view-1 .top h1 span {
+  opacity: 0.6;
+}
+.view-1 .bottom {
+  width: 100%;
+  display: grid;
+  grid-template-areas: "a a b b" "a a b b" "a a b b" "a a b b" "a a b b" "a a c c" "a a c c" "a a c c";
+  gap: 1.5rem;
+  max-height: 30rem;
+}
+.view-1 .bottom img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+.view-1 .bottom .img-a {
+  grid-area: a;
+  max-width: 21rem;
+}
+.view-1 .bottom .img-b {
+  grid-area: b;
+  aspect-ratio: 4/3;
+  max-width: 21rem;
+}
+.view-1 .bottom .img-c {
+  grid-area: c;
+  aspect-ratio: 16/9;
+  max-width: 21rem;
+}
+
+@media (min-width: 1080px) {
+  main {
+    padding: 3rem;
+  }
+  .view-1 {
+    flex-direction: row;
+    gap: 3rem;
+  }
+  .view-1 .top {
+    width: 50%;
+  }
+  .view-1 .top h1 {
+    font-size: 6rem;
+  }
+  .view-1 .top p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+  }
+  .view-1 .bottom {
+    width: 50%;
+    grid-template-areas: ". . b b" "a a b b" "a a b b" "a a b b" "a a b b" "a a c c" "a a c c" ". . c c";
+  }
+}/*# sourceMappingURL=style.css.map */
