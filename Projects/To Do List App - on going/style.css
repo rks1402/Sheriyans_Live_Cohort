@@ -88,6 +88,11 @@ dialog button {
   padding: 5px 0;
 }
 
+dialog button:active {
+  scale: .95;
+  background-color: #70ee9c;
+} 
+
 .task-container {
   display: flex;
   justify-content: space-between;

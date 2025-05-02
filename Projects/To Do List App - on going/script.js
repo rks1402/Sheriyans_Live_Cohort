@@ -5,6 +5,7 @@ addTaskBtn.addEventListener("click", () => {
     taskModal.showModal();
 })
 
+// Adding the task to task section logic
 
 let todoSection = document.querySelector("#section1");
 let addTaskTitle = document.querySelector("#addTaskTitle");
@@ -21,3 +22,6 @@ dialogAddBtn.addEventListener("click", () => {
     taskDiv.append(taskTitle, taskDescription);
     todoSection.appendChild(taskDiv);
 })
+
+// Making the task draggable
+
