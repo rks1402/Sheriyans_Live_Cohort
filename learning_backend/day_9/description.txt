@@ -1,0 +1,8 @@
+Today we are going to further develop the mood detector application
+
+1. Made some basic UI.
+2. Made basic backend with connection to mongoDB.
+3. Made account on Imagekit.io (Cloud Storage Provider)
+
+4. Connected Imagekit ( Cloud Storage Provider ) with the backend
+5. Implemented Upload function to upload file to CSP.

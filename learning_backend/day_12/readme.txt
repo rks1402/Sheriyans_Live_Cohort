@@ -1,0 +1,1 @@
+Today was a theory only lecture, we learned about how server authenticate users by using tokens.

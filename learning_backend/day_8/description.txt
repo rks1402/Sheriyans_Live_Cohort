@@ -1,0 +1,5 @@
+Today we are going to further develop the mood detector application
+
+1. Made some basic UI.
+2. Made basic backend with connection to mongoDB.
+3. Made account on Imagekit.io (Cloud Storage Provider)

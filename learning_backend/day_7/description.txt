@@ -1,0 +1,1 @@
+Today we are going to make a face expression and mood detection project with react.
