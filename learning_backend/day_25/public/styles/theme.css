@@ -1,0 +1,26 @@
+/* Light theme (default) */
+:root {
+  --primary-color: #4a90e2;
+  --primary-hover: #357ab8;
+  --bg-color: #f9f9f9;
+  --text-color: #333;
+  --input-bg: #fff;
+  --input-border: #ccc;
+
+  --font-family: 'Segoe UI', sans-serif;
+  --font-size-base: 16px;
+  --border-radius: 6px;
+  --spacing: 1rem;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #4a90e2;
+    --primary-hover: #5aa0ff;
+    --bg-color: #1c1c1c;
+    --text-color: #e0e0e0;
+    --input-bg: #2a2a2a;
+    --input-border: #444;
+  }
+}

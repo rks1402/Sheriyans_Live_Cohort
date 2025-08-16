@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chat</title>
+  <link rel="stylesheet" href="/styles/chat.css">
+</head>
+<body>
+  <!-- Top Navigation -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <span class="logo">gptClone</span>
+    </div>
+    <div class="nav-right">
+      <a href="/auth/login" class="nav-btn">Login</a>
+      <a href="/auth/register" class="nav-btn primary">Sign Up</a>
+    </div>
+  </nav>
+
+  <div class="chat-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>Chats</h2>
+        <button id="new-chat-btn">+</button>
+      </div>
+      <ul id="chat-history">
+        <!-- Chat history items will be inserted here -->
+      </ul>
+    </aside>
+
+    <!-- Chat Main Area -->
+    <main class="chat-main">
+      <div class="chat-messages" id="chat-messages">
+        <!-- Messages will appear here -->
+      </div>
+      <form id="chat-form" class="chat-input-area">
+        <input type="text" id="chat-input" placeholder="Type your message..." autocomplete="off" required>
+        <button type="submit">Send</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="/scripts/chat.js"></script>
+</body>
+</html>
